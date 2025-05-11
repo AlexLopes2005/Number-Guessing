@@ -52,12 +52,10 @@ def distancia(numero_h, numero_m):
 
 
 #Principal:
-numeroHumano = -1
+numeroHumano = 0
 intervalo = [0, 100]  # {min, max}
 numeroMaquina = randint(intervalo[0], intervalo[1])
 tentativas = 0
-
-print(numeroMaquina)
 
 print('-- Guessing Number Game: --')
 print(f'O número está entre {intervalo[0]} e {intervalo[1]}. Adivinhe o número:\n')
